@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_create_link"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/text_label"
+        android:text="@string/create_link_title"/>
+
+    <EditText
+        android:id="@+id/activity_create_link_title"
+        style="@style/edit_field"/>
+
+    <TextView
+        style="@style/text_label"
+        android:text="@string/create_link_category"/>
+
+    <EditText
+        android:id="@+id/activity_create_link_category"
+        style="@style/edit_field"/>
+
+    <TextView
+        style="@style/text_label"
+        android:text="@string/create_link_url"/>
+
+    <EditText
+        android:id="@+id/activity_create_link_url"
+        style="@style/edit_field"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_link_register"
+        android:onClick="createLink"/>
+    
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <!-- Titles -->
+    <string name="app_name">Links</string>
+    <string name="app_create">Cadastro de Link</string>
+    <string name="app_list">Lista de Link</string>
+    <string name="app_search">Busca de Link</string>
+
+    <!-- Button manage links -->
+    <string name="create_link">Cadastrar Link</string>
+    <string name="list_links">Listar Link</string>
+    <string name="search_link">Buscar Link</string>
+
+    <!-- Create -->
+    <string name="create_link_title">Título:</string>
+    <string name="create_link_category">Categoria:</string>
+    <string name="create_link_url">Link:</string>
+    <string name="create_link_register">Cadastrar</string>
+
+    <!-- List -->
+    <string name="list_link_read">Lido</string>
+
+    <!-- Search -->
+    <string name="search">Buscar</string>
+
+    <!-- Message -->
+    <string name="message_required_field">Required Field!</string>
+    <string name="message_link_registered_success">Link cadastrado com sucesso!</string>
+    <string name="message_link_already_registered">Link cadastrado já cadastrado!</string>
+    <string name="message_link_registered_fail">Erro ao cadastrar Link!</string>
+
+</resources>

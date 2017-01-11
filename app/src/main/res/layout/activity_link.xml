@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_link"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_link_title"
+        style="@style/text_label"/>
+
+    <TextView
+        android:id="@+id/activity_link_category"
+        style="@style/text_label"/>
+
+    <TextView
+        android:id="@+id/activity_link_url"
+        style="@style/text_label"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_link_read"
+        android:onClick="readLink"/>
+
+</LinearLayout>
